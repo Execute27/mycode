@@ -11,16 +11,8 @@ NE_animals= farms[0]["agriculture"]
 for x in NE_animals:
     print(x)
 
-for farm in farms:
-    print("-", farm["name"])
-choice= input("Pick a farm!\n")
-
-for farm in farms:
-    if farm["name"].lower() == choice.lower():
-        yuck = ["carrots", "celery"]
-
-for farm in farms:
-    print("-", farm["name"])
+yuck = ["carrots", "celery"]
+        
 choice= input("pick a farm!\n")
 for farm in farms:
     if farm["name"].lower() == choice.lower():
